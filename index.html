@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz – Radiohead</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        form {
+            width: 300px;
+        }
+
+        input[type=text],
+        input[type=email],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 80px;
+            resize: none;
+        }
+
+        input[type=text]:focus,
+        input[type=email]:focus,
+        select:focus,
+        textarea:focus {
+            border-color: blue;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            padding: 8px;
+            background-color: lightblue;
+            border: 1px solid blue;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Kontakt – Radiohead</h2>
+
+<form>
+    Imię:
+    <input type="text">
+
+    E-mail:
+    <input type="email">
+
+    Ulubiony album:
+    <select>
+        <option>OK Computer</option>
+        <option>Kid A</option>
+        <option>In Rainbows</option>
+    </select>
+
+    Wiadomość:
+    <textarea></textarea>
+
+    <input type="submit" value="Wyślij">
+</form>
+
+</body>
+</html>
